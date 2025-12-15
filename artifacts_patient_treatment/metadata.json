@@ -1,0 +1,44 @@
+{
+    "dataset_path": "C:\\PERSONAL\\PATIENT TREATMENT CLASSIFICATION\\DATASET.csv",
+    "n_samples": 4412,
+    "n_features": 10,
+    "target_column": "SOURCE",
+    "class_names": [
+        "in",
+        "out"
+    ],
+    "numeric_features": [
+        "HAEMATOCRIT",
+        "HAEMOGLOBINS",
+        "ERYTHROCYTE",
+        "LEUCOCYTE",
+        "THROMBOCYTE",
+        "MCH",
+        "MCHC",
+        "MCV",
+        "AGE"
+    ],
+    "categorical_features": [
+        "SEX"
+    ],
+    "ensemble_type": "VotingClassifier (soft voting) with SMOTE",
+    "models": [
+        "Deep MLP (512,256,128,64,32)",
+        "XGBoost",
+        "Random Forest"
+    ],
+    "mlp_hidden_layers": [
+        512,
+        256,
+        128,
+        64,
+        32
+    ],
+    "xgb_n_estimators": 500,
+    "xgb_max_depth": 4,
+    "rf_n_estimators": 300,
+    "random_state": 42,
+    "test_size": 0.2,
+    "val_size": 0.2,
+    "created_at": "2025-12-15T23:34:12.465401"
+}
