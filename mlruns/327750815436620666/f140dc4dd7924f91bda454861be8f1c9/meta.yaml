@@ -1,0 +1,14 @@
+artifact_uri: file:c:/PERSONAL/PATIENT TREATMENT CLASSIFICATION/mlruns/327750815436620666/f140dc4dd7924f91bda454861be8f1c9/artifacts
+end_time: 1765889736270
+entry_point_name: ''
+experiment_id: '327750815436620666'
+lifecycle_stage: active
+run_id: f140dc4dd7924f91bda454861be8f1c9
+run_name: deep_mlp_xgb_rf_smote
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765889650385
+status: 3
+tags: []
+user_id: rampr

@@ -1,0 +1,45 @@
+DATAFRAME INFO
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4412 entries, 0 to 4411
+Data columns (total 11 columns):
+ #   Column        Non-Null Count  Dtype  
+---  ------        --------------  -----  
+ 0   HAEMATOCRIT   4412 non-null   float64
+ 1   HAEMOGLOBINS  4412 non-null   float64
+ 2   ERYTHROCYTE   4412 non-null   float64
+ 3   LEUCOCYTE     4412 non-null   float64
+ 4   THROMBOCYTE   4412 non-null   int64  
+ 5   MCH           4412 non-null   float64
+ 6   MCHC          4412 non-null   float64
+ 7   MCV           4412 non-null   float64
+ 8   AGE           4412 non-null   int64  
+ 9   SEX           4412 non-null   object 
+ 10  SOURCE        4412 non-null   object 
+dtypes: float64(7), int64(2), object(2)
+memory usage: 379.3+ KB
+
+
+DESCRIBE (NUMERIC)
+       HAEMATOCRIT  HAEMOGLOBINS  ERYTHROCYTE    LEUCOCYTE  THROMBOCYTE          MCH         MCHC          MCV          AGE
+count  4412.000000   4412.000000  4412.000000  4412.000000  4412.000000  4412.000000  4412.000000  4412.000000  4412.000000
+mean     38.197688     12.741727     4.541260     8.718608   257.524479    28.234701    33.343042    84.612942    46.626473
+std       5.974784      2.079903     0.784091     5.049041   113.972365     2.672639     1.228664     6.859101    21.731218
+min      13.700000      3.800000     1.480000     1.100000     8.000000    14.900000    26.000000    54.000000     1.000000
+25%      34.375000     11.400000     4.040000     5.675000   188.000000    27.200000    32.700000    81.500000    29.000000
+50%      38.600000     12.900000     4.570000     7.600000   256.000000    28.700000    33.400000    85.400000    47.000000
+75%      42.500000     14.200000     5.050000    10.300000   321.000000    29.800000    34.100000    88.700000    64.000000
+max      69.000000     18.900000     7.860000    76.600000  1183.000000    40.800000    39.000000   115.600000    99.000000
+
+DESCRIBE (ALL)
+        HAEMATOCRIT  HAEMOGLOBINS  ERYTHROCYTE    LEUCOCYTE  THROMBOCYTE          MCH         MCHC          MCV          AGE   SEX SOURCE
+count   4412.000000   4412.000000  4412.000000  4412.000000  4412.000000  4412.000000  4412.000000  4412.000000  4412.000000  4412   4412
+unique          NaN           NaN          NaN          NaN          NaN          NaN          NaN          NaN          NaN     2      2
+top             NaN           NaN          NaN          NaN          NaN          NaN          NaN          NaN          NaN     M    out
+freq            NaN           NaN          NaN          NaN          NaN          NaN          NaN          NaN          NaN  2290   2628
+mean      38.197688     12.741727     4.541260     8.718608   257.524479    28.234701    33.343042    84.612942    46.626473   NaN    NaN
+std        5.974784      2.079903     0.784091     5.049041   113.972365     2.672639     1.228664     6.859101    21.731218   NaN    NaN
+min       13.700000      3.800000     1.480000     1.100000     8.000000    14.900000    26.000000    54.000000     1.000000   NaN    NaN
+25%       34.375000     11.400000     4.040000     5.675000   188.000000    27.200000    32.700000    81.500000    29.000000   NaN    NaN
+50%       38.600000     12.900000     4.570000     7.600000   256.000000    28.700000    33.400000    85.400000    47.000000   NaN    NaN
+75%       42.500000     14.200000     5.050000    10.300000   321.000000    29.800000    34.100000    88.700000    64.000000   NaN    NaN
+max       69.000000     18.900000     7.860000    76.600000  1183.000000    40.800000    39.000000   115.600000    99.000000   NaN    NaN

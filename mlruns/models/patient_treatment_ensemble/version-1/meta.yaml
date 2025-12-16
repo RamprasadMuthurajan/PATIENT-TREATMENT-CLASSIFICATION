@@ -1,0 +1,15 @@
+creation_timestamp: 1765889736165
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1765889736165
+model_id: m-9306d9fbbf3a419c9191b0122797a4e1
+name: patient_treatment_ensemble
+run_id: f140dc4dd7924f91bda454861be8f1c9
+run_link: null
+source: models:/m-9306d9fbbf3a419c9191b0122797a4e1
+status: READY
+status_message: null
+storage_location: file:c:/PERSONAL/PATIENT TREATMENT CLASSIFICATION/mlruns/327750815436620666/models/m-9306d9fbbf3a419c9191b0122797a4e1/artifacts
+user_id: null
+version: 1

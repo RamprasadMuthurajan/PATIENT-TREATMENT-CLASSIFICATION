@@ -1,0 +1,10 @@
+artifact_location: file:c:/PERSONAL/PATIENT TREATMENT CLASSIFICATION/mlruns/327750815436620666/models/m-9306d9fbbf3a419c9191b0122797a4e1/artifacts
+creation_timestamp: 1765889715326
+experiment_id: '327750815436620666'
+last_updated_timestamp: 1765889736067
+model_id: m-9306d9fbbf3a419c9191b0122797a4e1
+model_type: null
+name: model
+source_run_id: f140dc4dd7924f91bda454861be8f1c9
+status: 2
+status_message: null
